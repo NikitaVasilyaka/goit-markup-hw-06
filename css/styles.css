@@ -948,9 +948,6 @@ width: 264px;
     position: absolute;
     top: 0;
     left: 0;
-    
-    
-    
 }
 .icon-checkbox {
     display: inline-block;
@@ -963,7 +960,7 @@ width: 264px;
 }
 .checkbox:checked + .icon-checkbox {
     background-color: #404BBF;
-    background-image: url("../images/checkbox");
+    background-image: url("../images/checkbox.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-origin: border-box;
