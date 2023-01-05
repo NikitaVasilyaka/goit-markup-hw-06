@@ -529,6 +529,90 @@ width: 264px;
     width: 24px;
     height: 24px;
 }
+/*---------- footer-subscribe ----------*/
+.box-subscribe {
+    margin-left: auto;
+}
+
+.subscribe-header {
+    font-size: 16px;
+    margin-bottom: 16px;
+    color: #FFFFFF;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.box-subscribe label {
+    width: 264px;
+}
+.input-email:focus{
+    border: 1px solid #9747FF;
+    outline: transparent;
+}
+.input-email {
+    font-family: "Roboto";
+    background-color: inherit;
+    padding-left: 16px;
+    height: 40px;
+    width: 264px;
+    color: rgba(255, 255, 255, 0.6);
+    line-height: calc(24/12);
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    outline: none;
+    transition: filter 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.input-email::placeholder {
+    font-family: "Roboto";
+    line-height: calc(24/12);
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.subscribe-icon {
+    width: 24px;
+    height: 20px;
+    margin-left: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-subscribe:hover {
+    background-color: #404BBF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+.button-subscribe {
+    display: inline-flex;
+    background-color: #4D5AE5;
+    color: #ffffff;
+    margin-left: 24px;
+    padding-top: 8px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 8px;
+    border-radius: 4px;
+    border-color: transparent;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto";
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    line-height: calc(24 / 16);
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+
 
 /*---------- Portfolio ----------*/
 
